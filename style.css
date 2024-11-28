@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .lin{
     display: flex;
     justify-content: space-between;
@@ -18,10 +24,13 @@
    font-weight: 400;
 }
 
+.get{
+    color: #999999;
+}
 
 .Suscribe{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     height: 30vh;
     justify-content: center;
     align-items: center;
@@ -33,4 +42,648 @@
 
 .btn{
     background-color: #18BC9C;
+    height: 30px;
+}
+.grss{
+    display: flex;
+    height: 50px;
+    gap: 2;
+    justify-content: center;
+    align-items: center;
+    color: #999999;
+    font-size: 40px;
+    background-color: #F7F7F7;
+}
+/* GRASS HOPPER FIRST FOUR IMAGE */
+.first{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    background-color: #F7F7F7;
+    gap: 20px;
+    padding: 20px;
+    height: 60vh;
+    
+}
+.firstimg{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+    
+}
+.fr{
+    height: 150;
+    width: 150px;
+    border-radius: 75px;
+}
+.Simage{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+.sr{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+.timage{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+.tr{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+.fimage{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+.fr{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+/* GRASS HOPPER SECOND FOUR IMAGE */
+
+.second{
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    background-color: #F7F7F7;
+    gap: 20px;
+    padding: 20px;
+    height: 60vh;
+    padding-left: 128px;
+    
+}
+.secondfirstimg{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+    
+}
+.secondfradius{
+    height: 150;
+    width: 150px;
+    border-radius: 75px;
+}
+.Secondsecondimage{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+.secondsecondradius{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+.secondthirdimage{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+.secondthirdimgradius{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+.secondfourthimg{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+.secondfourthimgradius{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+/* JOURNAY MAN NAME STARTS HERE */
+
+.jname{
+    display: flex;
+        height: 50px;display: flex;
+        height: 50px;
+        gap: 2;
+        justify-content: center;
+        align-items: center;
+        color: #999999;
+        font-size: 40px;
+        background-color: #F7F7F7;
+       
+}
+
+.Journeyman{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    background-color: #F7F7F7;
+    gap: 20px;
+    padding: 20px;
+    height: 60vh;
+
+}
+
+.jfirstimg{
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+.jfradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+
+/* jm first img ends herre */
+
+/* jm second img start here */
+
+.jmSecondsecondimage{
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+.jmsecondsecondradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+/* journeyman second img ends here */
+
+
+/* journeyman third img start here */
+.jmthirdimage{
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+.thirdimgradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+/* journeyman third img ends here */
+
+
+/* journey man fourth img dtart here */
+
+.jmfourthimg{
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+
+.jmfourthimgradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+/* journeyman last three img start here */
+
+/* journeyman second row first image */
+.jmlastthree{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    background-color: #F7F7F7;
+    gap: 20px;
+    padding: 20px;
+    height: 60vh;
+
+}
+
+.jmlastfirst{
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+
+.jmlastfirstradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+/* journey man last three */
+
+.jmlastthree{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* flex-direction: column; */
+    background-color: #F7F7F7;
+    gap: 20px;
+    padding: 20px;
+    height: 60vh;
+    padding-left: 128px;
+
+}
+
+.lastone{
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+
+.lastoneradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+
+.jmlastsecond{
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+
+.jmlastsecondradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+
+.jmlastthird{
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+
+.jmlastthirdradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+/*JOURNEYMAN MAN ENDS HERE */
+
+/* NETWORKING NOMAD STARTS HERE */
+
+/* NETWORKING NOMAD NAME */
+.nomadname{
+    display: flex;
+    height: 50px;display: flex;
+    height: 50px;
+    gap: 2;
+    justify-content: center;
+    align-items: center;
+    color: #999999;
+    font-size: 40px;
+    background-color: #F7F7F7;
+}
+
+/* nomad first 4 image */
+
+.nomad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: #F7F7F7;
+    gap: 20px;
+    padding: 20px;
+    height: 60vh;
+    padding-bottom: 50px;
+}
+
+
+/* first nomed img */
+.firstnomadimg{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+
+
+}
+
+.firstnomadimgradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+
+/* nomad second img */
+
+.nomadsecondimg{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+
+}
+
+.nomadsecondimgrdius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+/* nomad third img */
+.nomadthirdimg{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+}
+
+.nomadthirdimgradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+/* nomad fourth img */
+
+.nomadfourthimg{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+    gap: 14px;
+
+}
+
+.nomadfourthradius{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+
+/* footer start from here */
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    /* flex-direction: column; */
+    background-color: #2c3e50; 
+    padding: 20px;
+    height: 30vh;
+    margin-top: 100px;
+    color: white;
+}
+
+.Subscribe{
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+  
+}    
+
+.subtext{
+    text-align: center;
+    padding: 5px;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+.email{
+    padding: 5px 15px;
+}
+.slink{
+    text-align: center;
+    padding: 5px;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   color: skyblue;
+
+    
+}
+/* about us middle part */
+.aboutus{
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+  
+}    
+
+.aboutust{
+    text-align: center;
+    padding: 5px;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+.contrilink{
+    text-align: center;
+    padding: 5px;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   color: skyblue;
+
+    
+}
+
+/* contact us text and link */
+
+.Contactus{
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+  
+}    
+
+.contactust{
+    text-align: center;
+    padding: 5px;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+.contactuslink{
+    text-align: center;
+    padding: 5px;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   color: skyblue;
+
+    
 }
